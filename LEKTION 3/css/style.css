@@ -1,0 +1,22 @@
+.section {
+  /*box-sizing: border-box;*/
+  width: 600px;
+  margin: auto;
+}
+
+.sec {
+  margin-bottom: 50px;
+}
+
+.media {
+  /*box-sizing: border-box;*/
+  width: 40%;
+  float: right;
+}
+
+.text {
+  box-sizing: border-box;
+  width: 60%;
+  float: left;
+  padding-right: 30px;
+}
