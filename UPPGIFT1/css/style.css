@@ -19,6 +19,7 @@ a {
 }
 
 nav a {
+  /*try to use div tags then use float or display inline*/
   padding-left: 10px;
 }
 
