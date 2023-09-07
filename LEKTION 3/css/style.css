@@ -1,5 +1,4 @@
-.section {
-  /*box-sizing: border-box;*/
+/*.section {
   width: 600px;
   margin: auto;
 }
@@ -9,7 +8,6 @@
 }
 
 .media {
-  /*box-sizing: border-box;*/
   width: 40%;
   float: right;
 }
@@ -19,4 +17,24 @@
   width: 60%;
   float: left;
   padding-right: 30px;
+}
+
+.text h2 {
+  margin-top: 0;
+}*/
+
+.utama {
+  width: 600px;
+  margin: auto;
+}
+
+.text {
+  width: 60%;
+  float: left;
+}
+
+.media {
+  width: 40%;
+  float: right;
+  margin: 0;
 }

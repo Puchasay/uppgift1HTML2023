@@ -1,0 +1,36 @@
+main {
+  width: 60%;
+  margin: auto;
+}
+
+table {
+  margin: auto;
+  border: 1px solid black;
+}
+
+thead {
+  margin: 20px;
+}
+
+tbody {
+  margin: 20px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 20px;
+  /*background-color: rgb(143, 176, 23);*/
+}
+
+#comm {
+  margin-top: 50px;
+}
+
+label,
+input,
+textarea {
+  float: left;
+  clear: left;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>HTML & CSS for Tables & Form</h1>
+      <h2>Tables</h2>
+      <table>
+        <caption>
+          <strong>This is just an example of table</strong>
+        </caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <!--Row 1, Column 1-->
+            <th>Sex</th>
+            <th>Favorite Movie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2" style="background-color: aquamarine">Mary Jane</td>
+            <!--Row 2, Column 1. This is cover 2 columns with colspan-->
+            <td></td>
+            <!--Row 2, Column 2-->
+            <td>Avatar</td>
+          </tr>
+
+          <tr>
+            <td rowspan="2" style="background-color: blueviolet">Jhon Meyer</td>
+            <!--Row 3, Column 1-->
+            <td>Male</td>
+            <td>Doraemon</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Female</td>
+            <td>Bolibompa</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Total persons</td>
+            <td>10</td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+      <section style="margin-top: 30px">
+        <form action="https://www.google.com" method="">
+          <!--for example we send it to google.com, all value on input data send it to google-->
+          <fieldset style="margin-top: 20px">
+            <legend>Example for the checkbox</legend>
+            <input type="checkbox" name="color" id="redOne" value="red" />
+            <label for="redOne">Red</label>
+            <input type="checkbox" name="color" id="greenOne" value="green" />
+            <label for="greenOne">Green</label>
+            <input type="radio" name="color" id="pinkOne" value="pink" />
+            <label for="pinkOne">Pink</label>
+            <input type="radio" name="color" id="yellowOne" value="yellow" />
+            <!--value -->
+            <label for="yellowOne">Yellow</label>
+          </fieldset>
+          <fieldset style="margin-top: 20px">
+            <legend>Gardin choices</legend>
+            <select name="gardin" id="gardin">
+              <option value="flower">Flowery</option>
+              <optgroup label="Other gardin">
+                <option value="doraemon">Doraemon</option>
+                <option value="leaves">Green leaves</option>
+                <option value="ice">Ice cream</option>
+              </optgroup>
+            </select>
+          </fieldset>
+          <fieldset style="margin-top: 20px">
+            <legend>Buttons</legend>
+            <input type="button" value="touch me" />
+            <input type="submit" value="choose me" />
+            <button>Push this button!</button>
+            <button>
+              <h3>This is Google</h3>
+              <p>To The Google link</p>
+              <a href="https://www.google.com">Google website</a>
+            </button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
