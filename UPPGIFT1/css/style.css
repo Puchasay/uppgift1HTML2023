@@ -24,14 +24,15 @@ nav a {
 }
 
 #home {
-  width: 950px;
-  height: 450px;
+  width: 100%;
+  height: 350px;
   margin-top: 30px;
 }
 
 nav {
-  position: absolute;
-  left: 940px;
+  float: right;
+  /*position: absolute;
+  left: 940px;*/
 }
 
 .beautiful {
@@ -43,12 +44,12 @@ nav {
 }
 
 #beautiful {
-  width: 450px;
+  width: 100%;
   height: 350px;
 }
 
 #cozy {
-  width: 400px;
+  width: 100%;
   height: 400px;
 }
 
@@ -57,7 +58,7 @@ nav {
 }
 
 #aboutus {
-  width: 400px;
+  width: 100%;
   height: 300px;
 }
 
@@ -71,12 +72,13 @@ form {
 }
 
 #send {
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 #comfort {
   column-count: 2;
+  width: 70%;
 }
 
 #wool {
@@ -93,5 +95,41 @@ aside {
   width: 18%;
   float: right;
   margin-top: 18px;
-  margin-left: 100px;
+  /*margin-left: 100px;*/
+}
+
+.company {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.company p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.tube {
+  float: left;
+  clear: left;
+}
+
+.fancy {
+  float: left;
+  clear: left;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.fancy a {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgb(186, 185, 185);
+  color: black;
 }

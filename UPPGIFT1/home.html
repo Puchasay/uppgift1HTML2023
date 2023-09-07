@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--It says validator that lang en doesnt fit with my lorem ipsum paragraph. 
+I should change the language to other language. Ask the teacher!!-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,7 +24,7 @@
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <img src="img/pic1.jpg" alt="homepage pic" id="home" />
+      <img src="img/hanging.jpg" alt="homepage pic" id="home" />
     </header>
     <main>
       <section>
@@ -86,14 +88,16 @@
       <hr />
     </main>
     <footer>
-      <section>
-        <p>FootLovers, Inc.</p>
+      <div class="company">
+        <!--I wrote section tag before instead of div tag, it was wrong by the validator,
+          coz section tag need to have heading H1-H6-->
+        <p class="para">FootLovers, Inc.</p>
         <p>480 West Main Street, 50508</p>
         <p>California, USA</p>
-      </section>
-      <section>
+      </div>
+      <div>
         <p>&copy; Created by Pucha Sayerz</p>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
