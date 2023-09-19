@@ -1,0 +1,62 @@
+main {
+  max-width: 600px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec2 article {
+  padding-bottom: 60px;
+}
+
+img {
+  float: left;
+  clear: left;
+  width: 40%;
+  height: 160px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+#para1 {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.less {
+  font-style: italic;
+  color: lightseagreen;
+}
+
+.more {
+  font-weight: bolder;
+  color: lightseagreen;
+}
+
+/*h2 {
+  float: left;
+}*/
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  /*Why this a link doesnt work?*/
+  color: black;
+  font-weight: bolder;
+}
+
+a:visited {
+  color: grey;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:active {
+  color: rgb(68, 26, 235);
+  font-weight: bolder;
+}
