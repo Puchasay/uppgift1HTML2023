@@ -1,0 +1,67 @@
+/*#b4 {
+  background-color: salmon;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+
+#b3 {
+  background-color: rgb(114, 241, 250);
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+#b2 {
+  background-color: rgb(125, 250, 114);
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+#b1 {
+  background-color: rgb(250, 114, 166);
+  width: 600px;
+  height: 500px;
+}*/
+
+#b1 {
+  background-color: rgb(250, 114, 166);
+  max-width: 600px;
+  height: 500px;
+  position: static;
+  margin: auto;
+}
+
+#b2 {
+  background-color: rgb(125, 250, 114);
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 400px;
+  top: 50px;
+}
+
+#b3 {
+  background-color: rgb(114, 241, 250);
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 450px;
+  top: 100px;
+}
+
+#b4 {
+  background-color: salmon;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 500px;
+  top: 150px;
+}
