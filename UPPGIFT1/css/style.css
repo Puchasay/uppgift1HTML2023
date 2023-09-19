@@ -23,7 +23,6 @@ header a {
 }
 
 nav a {
-  /*try to use div tags then use float or display inline*/
   padding-left: 10px;
 }
 
@@ -55,8 +54,6 @@ nav a:active {
 
 nav {
   float: right;
-  /*position: absolute;
-  left: 940px;*/
 }
 
 .beautiful {
@@ -173,10 +170,6 @@ h3 {
   color: rgb(15, 155, 236);
   font-weight: 500;
 }
-
-/*.fancy a:visited {
-  color: black;
-}*/
 
 .fancy1 {
   margin-right: 8px;
