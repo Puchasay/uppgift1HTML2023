@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+
+.flug {
+  color: rgb(227, 67, 134);
+  font-weight: bolder;
+}

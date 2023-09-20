@@ -1,3 +1,10 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap");
+
+@font-face {
+  font-family: "Fuggles";
+  src: local("Fuggles"), url("Fuggles/Fuggles-Regular.ttf");
+}*/
+
 /*Mobile layout*/
 @media only screen and (min-width: 374px) and (max-width: 500px) {
   body {
@@ -5,10 +12,30 @@
     margin: 0 auto;
   }
 
-  header img {
+  header #hero-image {
     width: 100%;
     height: 400px;
-    position: static;
+    margin-bottom: 50px;
+  }
+
+  #hero-image {
+    display: flex;
+    background-image: url(img/life.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+    /*width: 100%;
+    height: 400px;
+    position: static;*/
+  }
+
+  #hero-text {
+    background-color: rgb(216, 112, 147);
+    color: white;
+    font-size: 1em;
+    align-self: flex-end;
   }
 
   article img {
@@ -16,23 +43,23 @@
     height: 300px;
   }
 
-  header h1 {
+  /*header h1 {
     position: absolute;
     top: 260px;
     left: 30px;
-    background-color: palevioletred;
+    background-color: rgb(216, 112, 147);
     color: white;
     font-size: 1.8em;
   }
 
   header h2 {
-    position: absolute;
+    /*position: absolute;
     top: 289px;
     left: 30px;
-    background-color: palevioletred;
+    background-color: hsl(340, 57%, 64%);
     color: white;
     font-size: 1.7rem;
-  }
+  }*/
 }
 
 /*Tablet Layout*/
@@ -42,11 +69,19 @@
     margin: 0 auto;
   }
 
-  header {
-    position: relative;
+  header #hero-image {
+    width: 100%;
+    height: 400px;
   }
 
-  header img {
+  #hero-image {
+    background-image: url(img/life.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  /*header img {
     width: 100%;
     height: 400px;
   }
@@ -65,10 +100,18 @@
     left: 8%;
     background-color: palevioletred;
     color: white;
+  }*/
+
+  #hero-text {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    background-color: palevioletred;
+    color: white;
   }
 
   article img {
-    max-width: 100%;
+    max-width: 230px;
     height: 200px;
   }
 
@@ -79,20 +122,26 @@
   #main-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   #article-1 {
     flex-basis: 230px;
+    flex-grow: 1;
   }
 
   #article-2 {
     flex-basis: 230px;
+    flex-grow: 1;
   }
 
   #article-3 {
     flex-basis: 230px;
-    align-items: flex-start;
+    flex-grow: 0;
+  }
+
+  p {
+    width: 230px;
   }
 }
 
@@ -103,11 +152,29 @@
     margin: 0 auto;
   }
 
-  header {
-    position: relative;
+  header #hero-image {
+    width: 800px;
+    height: 400px;
   }
 
-  header img {
+  #hero-image {
+    background-image: url("img/life.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    align-content: flex-end;
+  }
+
+  #hero-text {
+    background-color: palevioletred;
+    color: white;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin: 20px;
+  }
+
+  /*header img {
     width: 100%;
     height: 400px;
   }
@@ -124,12 +191,12 @@
     position: absolute;
     top: 69%;
     left: 8%;
-    background-color: palevioletred;
+    background-color: hsl(340, 57%, 64%);
     color: white;
-  }
+  }*/
 
   article img {
-    width: 380px;
+    width: 370px;
     height: 300px;
   }
 
@@ -152,11 +219,35 @@
   }
 }
 
-hr {
-  margin-top: 40px;
+header #hero-image {
   margin-bottom: 40px;
 }
 
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article h2 {
+  padding-bottom: 20px;
+  /*margin-bottom: 20px;*/
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
 footer {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
