@@ -1,0 +1,16 @@
+#hero-img {
+  background-image: url("img/hero.jpg");
+  background-size: contain;
+  height: 400px;
+  color: white;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .zooCard {
+    height: 100%;
+  }
+}
