@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sayerz Private Tour</title>
     <link rel="stylesheet" href="css/home.css" />
-    <link rel="stylesheet" href="
-    <a target="_blank" href="https://icons8.com/icon/JTddWDKbAzgl/menu" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/ab8f74345f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header id="header">
@@ -17,11 +21,17 @@
         <h1><a href="home.html" id="tour-name">Sayerz Private Tour</a></h1>
       </div>
       <div class="dropdown">
-        <button class="dropbtn" id="menu-burger"></button>
+        <i
+          id="menu-burger"
+          class="fa-solid fa-bars fa-2xl"
+          style="color: #0b0c0f"
+        ></i>
+        <!--
+        <button class="dropbtn" id="menu-burger"></button>  -->
         <div class="dropdown-content">
           <a href="home.html">Home</a>
-          <a href="blog.html">Blog</a>
-          <a href="contact.html">Contact</a>
+          <a href="#all">Blog</a>
+          <a href="#form-sec">Contact</a>
         </div>
       </div>
     </header>
@@ -33,412 +43,582 @@
             Taking you to magic places and discover new experiences with us
           </h2>
           <button>
-            <a id="contact" href="contact.html">Contact us</a>
+            <a id="contact" href="#form-sec">Contact us</a>
           </button>
         </div>
       </section>
-      <section id="our-value" class="main-2">
-        <article id="value-1" class="values">
-          <h3>Exclusive ride with us</h3>
-          <p>
-            Enjoy your tour with a private transportation provided by us, you
-            can easily book our brand new cars and luxury cars. You can choose
-            wether you want a chauffeured car, van or even a luxury vehicle,
-            depending on your preferences and tour destinations.
-          </p>
-          <p class="close">
-            Intimate Experience, with no other participants to consider, you can
-            enjoy a more intimate and immersive experience at each stop on the
-            tour. If you value privacy during your tour, an exclusive tour
-            ensures that you won't have to share your experience with any
-            strangers.
-          </p>
-        </article>
-        <article id="value-2" class="values">
-          <h3>Choose you own local guide</h3>
-          <p>
-            We have our local guides who are ready to company your tour, just
-            take a look their profile and you could chat to our online agent and
-            tell them your needs, do not worry, we have tour guides who can talk
-            english, chinese, japanese, korean, russia, swedish, deutch, dutch,
-            spanish, french and even arab.
-          </p>
-          <p class="close">
-            On the day of your tour, relax and enjoy the exclusive experience.
-            Your guide will take care of the details, ensuring you have a
-            memorable and informative journey. Whether you're exploring a new
-            city, venturing into the wilderness, or immersing yourself in a
-            cultural experience.
-          </p>
-        </article>
-        <article id="value-3" class="values">
-          <h3>The best in town with the best price</h3>
-          <p>
-            We are the best private tour in town, we have many local guides who
-            can talk many languages, we provide brand new and luxury cars with
-            any capacity as you needed. Even more our price is the best deal in
-            town. Do not hesitate to contact us now.
-          </p>
-          <p class="close">
-            Our private tour can provide a unique and tailored adventure that
-            suits your preferences. Just remember to plan ahead, communicate
-            your interests, and select your local guide to make the most of your
-            exclusive ride and private tour in Bali.
-          </p>
-        </article>
-      </section>
-      <section id="all-article">
-        <h2>Bali One Day Trip</h2>
-        <div id="main-2" class="main-2">
-          <article id="trip-1">
-            <img
-              src="img/bedugul.jpg"
-              alt="Ulun Danu Beratan Temple"
-              class="img"
-            />
-            <div class="text-trip text1">
-              <h3>Ulun Danu Beratan Temple</h3>
-              <p>
-                Ulun Danu Beratan Temple, also known as Pura Ulun Danu Bratan,
-                is one of Bali's most iconic and picturesque temples.
-                <span class="close open-tablet"
-                  >Located in the Bedugul area, on the shores of Lake Bratan in
-                  the highlands of Bali, this temple is not only a place of
-                  worship but also a stunning example of Balinese temple
-                  architecture.</span
-                >
-              </p>
-              <p class="close">
-                Ulun Danu Beratan Temple is situated in the Tabanan Regency of
-                Bali, approximately 55 kilometers (34 miles) north of Ubud. It's
-                easily accessible by road, making it a popular day trip
-                destination.
-              </p>
-              <p class="close">
-                The temple complex consists of several shrines and pagodas that
-                seem to "float" on the calm waters of Lake Bratan, creating a
-                postcard-worthy scene. The temple is dedicated to the goddess
-                Dewi Danu, the Balinese Hindu goddess of water, lakes, and
-                rivers. It plays a vital role in the island's irrigation system
-                and is revered by the local Balinese people.
-              </p>
-              <p class="close">
-                Ulun Danu Beratan Temple is open to visitors daily. To avoid
-                crowds and take advantage of the cooler weather, consider
-                visiting in the morning. The temple can get crowded during peak
-                tourist season. Besides admiring the temple's beauty, you can
-                enjoy activities such as exploring the temple gardens, renting
-                traditional boats for a paddle on the lake, or picnicking by the
-                lakeside.
-              </p>
-              <!--
-              <p class="close">
-                While in the Bedugul area, you can explore other attractions
-                such as the Taman Ayun Temple, Bedugul Botanical Gardens, and
-                the Jatiluwih Rice Terraces.
-              </p> -->
-            </div>
+      <section id="our-values" class="main-2">
+        <h2>Why Us</h2>
+        <div id="our-value" class="main-2">
+          <article id="value-1" class="values">
+            <h3>Exclusive ride with us</h3>
+            <p>
+              Enjoy your tour with a private transportation provided by us, you
+              can easily book our brand new cars and luxury cars. You can choose
+              wether you want a chauffeured car, van or even a luxury vehicle,
+              depending on your preferences and tour destinations.
+            </p>
+            <p class="close">
+              Intimate Experience, with no other participants to consider, you
+              can enjoy a more intimate and immersive experience at each stop on
+              the tour. If you value privacy during your tour, an exclusive tour
+              ensures that you won't have to share your experience with any
+              strangers.
+            </p>
           </article>
-          <article id="trip-2">
-            <img
-              src="img/nusa-penida.jpg"
-              alt="Nusa Penida Island"
-              class="img"
-            />
-            <div class="text-trip text2">
-              <h3>Nusa Penida Island</h3>
-              <p>
-                Visiting Nusa Penida, a beautiful island located southeast of
-                Bali, can be a fantastic addition to your Bali travel itinerary.
-                <span class="close open-tablet"
-                  >Nusa Penida is known for its stunning natural beauty,
-                  pristine beaches, rugged cliffs, and vibrant marine
-                  life.</span
-                >
-              </p>
-              <p class="close">
-                Getting to Nusa Penida, take a fast boat or ferry from Sanur,
-                Bali, or from Padang Bai to Nusa Penida. The boat ride takes
-                around 30-45 minutes.
-              </p>
-              <!--
-              <div class="close">
-                Must-Visit Places in Nusa Penida:
-                <ul>
-                  <li>
-                    Kelingking Beach: Known for its iconic T-Rex-shaped cliff
-                    and stunning views. It's a challenging hike down to the
-                    beach, so wear appropriate footwear.
-                  </li>
-                  <li>
-                    Angel's Billabong: A natural infinity pool where you can
-                    take a dip.
-                  </li>
-                  <li>
-                    Broken Beach: A unique natural bridge formation with a
-                    scenic viewpoint.
-                  </li>
-                  <li>
-                    Crystal Bay: A great spot for swimming, snorkeling, and
-                    enjoying the beach.
-                  </li>
-                  <li>
-                    Atuh Beach: Another picturesque beach with clear waters.
-                  </li>
-                </ul>
-              </div>  -->
-              <p class="close">
-                Nusa Penida is known for its incredible marine life. Consider
-                going on a snorkeling or diving trip to spots like Manta Point,
-                where you can swim with manta rays.
-              </p>
-              <p class="close">
-                Be mindful of the ocean currents, especially if you plan to swim
-                or snorkel. Some areas can have strong currents, so it's
-                important to follow safety guidelines. Stay hydrated and use
-                sunscreen, as Nusa Penida can get quite hot.
-              </p>
-            </div>
-            <!--
-              <p>
-                Before visiting Nusa Penida, check weather conditions, and plan
-                your itinerary accordingly. Some activities, like hiking to
-                Kelingking Beach, may be best done early in the day to avoid the
-                heat and crowds.
-              </p>
-              <p>
-                Nusa Penida offers a serene escape from the hustle and bustle of
-                mainland Bali, and it's a paradise for nature enthusiasts,
-                adventure seekers, and beach lovers. Don't forget to take in the
-                breathtaking views and capture some stunning photographs to
-                remember your visit to this beautiful island.
-              </p>
-              -->
+          <article id="value-2" class="values">
+            <h3>Choose you own local guide</h3>
+            <p>
+              We have our local guides who are ready to company your tour, just
+              take a look their profile and you could chat to our online agent
+              and tell them your needs, do not worry, we have tour guides who
+              can talk english, chinese, japanese, korean, russia, swedish,
+              deutch, dutch, spanish, french and even arab.
+            </p>
+            <p class="close">
+              On the day of your tour, relax and enjoy the exclusive experience.
+              Your guide will take care of the details, ensuring you have a
+              memorable and informative journey. Whether you're exploring a new
+              city, venturing into the wilderness, or immersing yourself in a
+              cultural experience.
+            </p>
           </article>
-          <article id="trip-3">
-            <img src="img/rice-field.jpg" alt="Rice Field" class="img" />
-            <div class="text-trip text1">
-              <h3>Rice Field in Ubud</h3>
-              <p>
-                Exploring the beautiful rice fields around Ubud, Bali, is a
-                must-do activity for visitors looking to experience the island's
-                natural beauty and cultural heritage.
-                <span class="close open-tablet"
-                  >Ubud and its surrounding areas are home to several stunning
-                  rice terraces.</span
-                >
-              </p>
-              <p class="close">
-                The most famous ones include Tegallalang, Jatiluwih, and
-                Campuhan Ridge. Each offers a unique experience. Tegallalang is
-                the most popular and easily accessible rice terrace area. It's
-                known for its picturesque, tiered rice paddies and intricate
-                irrigation systems. The Campuhan Ridge is a scenic walking trail
-                with panoramic views of rice fields, lush hillsides, and the
-                Campuhan River. It's a peaceful and less crowded option for
-                experiencing the beauty of Bali's landscapes.
-              </p>
-              <p class="close">
-                Early morning or late afternoon is the best time to visit the
-                rice fields. During these hours, you'll experience cooler
-                temperatures and softer lighting, making for better photographs.
-                While exploring the rice fields, be mindful of the environment.
-                Stay on designated paths, avoid trampling on the crops, and
-                refrain from littering.
-              </p>
-              <p class="close">
-                You may encounter farmers working in the fields. It's an
-                opportunity to engage with them, learn about rice cultivation,
-                and even try your hand at planting or harvesting. Many cafes and
-                restaurants are located near the rice terraces. Enjoy a meal or
-                a refreshing drink while taking in the views.
-              </p>
-              <!--
-              <p class="close">
-                Visiting the rice fields in Ubud allows you to connect with
-                Bali's natural beauty and agricultural traditions. It's a serene
-                and visually captivating experience that showcases the island's
-                rich cultural heritage. Whether you choose to explore
-                Tegallalang, Jatiluwih, or the Campuhan Ridge, you're sure to be
-                enchanted by the lush green landscapes and the warmth of the
-                local people.
-              </p>
-              -->
-            </div>
-          </article>
-          <article id="trip-4">
-            <img src="img/tanah-lot.jpg" alt="Tanah Lot" class="img" />
-            <div class="text-trip text2">
-              <h3>Tanah Lot</h3>
-              <p>
-                Tanah Lot is one of Bali's most iconic and culturally
-                significant landmarks. It's not just a temple; it's a beautiful
-                sea temple perched on a rocky outcrop along Bali's southwestern
-                coast.
-                <span class="close open-tablet"
-                  >Visiting Tanah Lot offers a unique blend of natural beauty
-                  and spirituality.</span
-                >
-              </p>
-              <p class="close">
-                Tanah Lot is located in the Tabanan Regency, approximately 20
-                kilometers (12 miles) northwest of Kuta and Seminyak. It's
-                easily accessible by car or motorcycle.
-              </p>
-              <p class="close">
-                The temple is dedicated to the sea gods and is believed to
-                protect Bali from evil spirits. It's an important pilgrimage
-                site for the Balinese people. To experience the full beauty of
-                Tanah Lot, visit in the late afternoon or early evening. This
-                allows you to enjoy the sunset, which is a magical sight as the
-                temple is silhouetted against the setting sun.
-              </p>
-              <p class="close">
-                You can explore the temple complex, including the main temple
-                and smaller shrines. The entire area is beautifully landscaped
-                and offers fantastic ocean views. Tanah Lot is accessible during
-                low tide by a land bridge, but during high tide, it becomes an
-                isolated island. Both times offer unique photo opportunities, so
-                check the tide schedule if you want to see the temple from
-                different perspectives.
-              </p>
-              <!--
-              <p class="close">
-                In the evenings, you can watch traditional Balinese Kecak dance
-                performances near the temple. The dance typically starts at
-                sunset and adds to the cultural experience.
-              </p>
-              <p class="close">
-                Tanah Lot is relatively close to other attractions like the
-                Taman Ayun Temple and Alas Kedaton Monkey Forest. You can plan
-                to visit these places on the same day. Visiting Tanah Lot offers
-                a blend of cultural and natural beauty, making it a memorable
-                experience in Bali. Don't miss the chance to witness a stunning
-                Balinese sunset at this iconic temple by the sea.
-              </p>
-              -->
-            </div>
-          </article>
-          <article id="trip-5">
-            <img
-              id="monkey"
-              src="img/monkey-forest.jpg"
-              alt="Monkey Forest"
-              class="img"
-            />
-            <div class="text-trip text1">
-              <h3>Monkey Forest Ubud</h3>
-              <p>
-                Certainly, visiting the Sacred Monkey Forest Sanctuary in Ubud,
-                Bali, can be an exciting and memorable experience.
-                <span class="close open-tablet"
-                  >The Monkey Forest is located in the heart of Ubud, making it
-                  easily accessible from various parts of the town. You can walk
-                  to the sanctuary if you're staying in central Ubud.</span
-                >
-              </p>
-              <p class="close">
-                Bring your camera or smartphone to capture the playful antics of
-                the monkeys and the natural beauty of the sanctuary. However, be
-                cautious about the monkeys grabbing your belongings.
-              </p>
-              <!--
-              <div class="close">
-                <ul>
-                  <li>
-                    Don't feed the monkeys: Feeding them human food is
-                    discouraged, as it can be harmful to their health and
-                    behavior.
-                  </li>
-                  <li>
-                    Avoid direct eye contact: Monkeys may perceive this as a
-                    threat.
-                  </li>
-                  <li>
-                    Secure your belongings: Monkeys can be mischievous, so keep
-                    your bags, sunglasses, and other items secure.
-                  </li>
-                  <li>
-                    Be cautious with food: If you purchase bananas to feed the
-                    monkeys, be prepared for them to approach you. Follow the
-                    instructions provided by the sanctuary staff.
-                  </li>
-                  While interacting with the monkeys is one of the highlights,
-                  it's essential to exercise caution and follow the sanctuary's
-                  guidelines:
-                </ul>
-              </div>-->
-              <p class="close">
-                The Monkey Forest is not just about monkeys. It also offers
-                lush, tropical surroundings with walking paths that lead you
-                through the sanctuary's beautiful and serene environment. There
-                are ancient temple structures and stunning trees to admire. The
-                Monkey Forest can get crowded during the day, so consider
-                visiting in the morning or late afternoon to enjoy a quieter
-                experience.
-              </p>
-              <p class="close">
-                Visiting the Monkey Forest in Ubud can be a delightful and
-                educational experience. It provides a unique opportunity to
-                connect with Bali's natural environment and observe these
-                charming macaque monkeys up close. Just remember to be
-                respectful, follow the sanctuary's guidelines, and enjoy your
-                time amidst the lush jungle and playful primates.
-              </p>
-            </div>
-          </article>
-          <article id="trip-6">
-            <img
-              id="gate"
-              src="img/gate-of-heaven.jpg"
-              alt="Lempuyang Temple"
-              class="img"
-            />
-            <div class="text-trip text2">
-              <h3>Gate of Heaven, Lempuyang Temple</h3>
-              <p>
-                The Gate of Heaven at Lempuyang Temple, also known as Pura
-                Lempuyang Luhur, is one of Bali's most iconic and
-                Instagram-famous locations.
-                <span class="close open-tablet"
-                  >The temple complex is perched high on Mount Lempuyang in East
-                  Bali and is known for its stunning gate, which frames the
-                  towering Mount Agung volcano in the background.</span
-                >
-              </p>
-              <p class="close">
-                Lempuyang Temple is located in Karangasem Regency, East Bali.
-                It's about a 2-3 hour drive from popular tourist areas like
-                Ubud, Seminyak, or Kuta. The temple is open daily, but it's best
-                to visit early in the morning to avoid crowds and to capture the
-                best lighting for photographs.
-              </p>
-              <p class="close">
-                When visiting any Balinese temple, including Lempuyang, it's
-                essential to dress respectfully. Both men and women should wear
-                clothing that covers their shoulders and knees. Sarongs and
-                sashes can often be rented or borrowed at the temple entrance if
-                you're not appropriately dressed.
-              </p>
-              <p class="close">
-                The famous Gate of Heaven is the main attraction here. The gate
-                is set against the backdrop of Mount Agung, and it appears as
-                though you're looking at heaven through the gate. Be prepared
-                for a queue to take photos at this spot, as it can get crowded.
-              </p>
-              <!--
-              <p class="close">
-                Weather in the mountains can be unpredictable. Bring an umbrella
-                or rain jacket, as rain showers are common. Visiting the Gate of
-                Heaven at Lempuyang Temple offers a unique and memorable
-                experience. The breathtaking views of Mount Agung and the serene
-                temple complex make it a must-visit destination for travelers
-                exploring Bali's cultural and natural beauty.
-              </p>
-              -->
-            </div>
+          <article id="value-3" class="values">
+            <h3>The best in town with the best price</h3>
+            <p>
+              We are the best private tour in town, we have many local guides
+              who can talk many languages, we provide brand new and luxury cars
+              with any capacity as you needed. Even more our price is the best
+              deal in town. Do not hesitate to contact us now.
+            </p>
+            <p class="close">
+              Our private tour can provide a unique and tailored adventure that
+              suits your preferences. Just remember to plan ahead, communicate
+              your interests, and select your local guide to make the most of
+              your exclusive ride and private tour in Bali.
+            </p>
           </article>
         </div>
+      </section>
+      <div id="bg-pic">
+        <section id="all-article">
+          <h2>Bali One Day Trip</h2>
+          <div id="main-2" class="main-2">
+            <article id="trip-1">
+              <img
+                src="img/bedugul.jpg"
+                alt="Ulun Danu Beratan Temple"
+                class="img-arc img-r"
+              />
+              <div class="text-trip text1">
+                <h3>Ulun Danu Beratan Temple</h3>
+                <p>
+                  Ulun Danu Beratan Temple, also known as Pura Ulun Danu Bratan,
+                  is one of Bali's most iconic and picturesque temples.
+                  <span class="close open-tablet"
+                    >Located in the Bedugul area, on the shores of Lake Bratan
+                    in the highlands of Bali, this temple is not only a place of
+                    worship but also a stunning example of Balinese temple
+                    architecture.</span
+                  >
+                </p>
+                <p class="close">
+                  Ulun Danu Beratan Temple is situated in the Tabanan Regency of
+                  Bali, approximately 55 kilometers (34 miles) north of Ubud.
+                  It's easily accessible by road, making it a popular day trip
+                  destination.
+                </p>
+                <p class="close">
+                  The temple complex consists of several shrines and pagodas
+                  that seem to "float" on the calm waters of Lake Bratan,
+                  creating a postcard-worthy scene. The temple is dedicated to
+                  the goddess Dewi Danu, the Balinese Hindu goddess of water,
+                  lakes, and rivers. It plays a vital role in the island's
+                  irrigation system and is revered by the local Balinese people.
+                </p>
+              </div>
+            </article>
+            <article id="trip-2">
+              <img
+                src="img/nusa-penida.jpg"
+                alt="Nusa Penida Island"
+                class="img-arc img-l"
+              />
+              <div class="text-trip text2">
+                <h3>Nusa Penida Island</h3>
+                <p>
+                  Visiting Nusa Penida, a beautiful island located southeast of
+                  Bali, can be a fantastic addition to your Bali travel
+                  itinerary.
+                  <span class="close open-tablet"
+                    >Nusa Penida is known for its stunning natural beauty,
+                    pristine beaches, rugged cliffs, and vibrant marine
+                    life.</span
+                  >
+                </p>
+                <p class="close">
+                  Getting to Nusa Penida, take a fast boat or ferry from Sanur,
+                  Bali, or from Padang Bai to Nusa Penida. The boat ride takes
+                  around 30-45 minutes.
+                </p>
+                <p class="close">
+                  Nusa Penida is known for its incredible marine life. Consider
+                  going on a snorkeling or diving trip to spots like Manta
+                  Point, where you can swim with manta rays.
+                </p>
+                <p class="close">
+                  Be mindful of the ocean currents, especially if you plan to
+                  swim or snorkel. Some areas can have strong currents, so it's
+                  important to follow safety guidelines. Stay hydrated and use
+                  sunscreen, as Nusa Penida can get quite hot.
+                </p>
+              </div>
+            </article>
+            <article id="trip-3">
+              <img
+                src="img/rice-field.jpg"
+                alt="Rice Field"
+                class="img-arc img-r"
+              />
+              <div class="text-trip text1">
+                <h3>Rice Field in Ubud</h3>
+                <p>
+                  Exploring the beautiful rice fields around Ubud, Bali, is a
+                  must-do activity for visitors looking to experience the
+                  island's natural beauty and cultural heritage.
+                  <span class="close open-tablet"
+                    >Ubud and its surrounding areas are home to several stunning
+                    rice terraces.</span
+                  >
+                </p>
+                <p class="close">
+                  The most famous ones include Tegallalang, Jatiluwih, and
+                  Campuhan Ridge. Each offers a unique experience. Tegallalang
+                  is the most popular and easily accessible rice terrace area.
+                  It's known for its picturesque, tiered rice paddies and
+                  intricate irrigation systems. The Campuhan Ridge is a scenic
+                  walking trail with panoramic views of rice fields, lush
+                  hillsides, and the Campuhan River. It's a peaceful and less
+                  crowded option for experiencing the beauty of Bali's
+                  landscapes.
+                </p>
+                <p class="close">
+                  Early morning or late afternoon is the best time to visit the
+                  rice fields. During these hours, you'll experience cooler
+                  temperatures and softer lighting, making for better
+                  photographs.
+                </p>
+              </div>
+            </article>
+            <article id="trip-4">
+              <img
+                src="img/tanah-lot.jpg"
+                alt="Tanah Lot"
+                class="img-arc img-l"
+              />
+              <div class="text-trip text2">
+                <h3>Tanah Lot</h3>
+                <p>
+                  Tanah Lot is one of Bali's most iconic and culturally
+                  significant landmarks. It's not just a temple; it's a
+                  beautiful sea temple perched on a rocky outcrop along Bali's
+                  southwestern coast.
+                  <span class="close open-tablet"
+                    >Visiting Tanah Lot offers a unique blend of natural beauty
+                    and spirituality.</span
+                  >
+                </p>
+                <p class="close">
+                  Tanah Lot is located in the Tabanan Regency, approximately 20
+                  kilometers (12 miles) northwest of Kuta and Seminyak. It's
+                  easily accessible by car or motorcycle.
+                </p>
+                <p class="close">
+                  The temple is dedicated to the sea gods and is believed to
+                  protect Bali from evil spirits. It's an important pilgrimage
+                  site for the Balinese people. To experience the full beauty of
+                  Tanah Lot, visit in the late afternoon or early evening. This
+                  allows you to enjoy the sunset, which is a magical sight as
+                  the temple is silhouetted against the setting sun.
+                </p>
+              </div>
+            </article>
+            <article id="trip-5">
+              <img
+                id="monkey"
+                src="img/monkey-forest.jpg"
+                alt="Monkey Forest"
+                class="img-arc img-r"
+              />
+              <div class="text-trip text1">
+                <h3>Monkey Forest Ubud</h3>
+                <p>
+                  Certainly, visiting the Sacred Monkey Forest Sanctuary in
+                  Ubud, Bali, can be an exciting and memorable experience.
+                  <span class="close open-tablet"
+                    >The Monkey Forest is located in the heart of Ubud, making
+                    it easily accessible from various parts of the town. You can
+                    walk to the sanctuary if you're staying in central
+                    Ubud.</span
+                  >
+                </p>
+                <p class="close">
+                  Bring your camera or smartphone to capture the playful antics
+                  of the monkeys and the natural beauty of the sanctuary.
+                  However, be cautious about the monkeys grabbing your
+                  belongings.
+                </p>
+                <p class="close">
+                  The Monkey Forest is not just about monkeys. It also offers
+                  lush, tropical surroundings with walking paths that lead you
+                  through the sanctuary's beautiful and serene environment.
+                  There are ancient temple structures and stunning trees to
+                  admire. The Monkey Forest can get crowded during the day, so
+                  consider visiting in the morning or late afternoon to enjoy a
+                  quieter experience.
+                </p>
+              </div>
+            </article>
+            <article id="trip-6">
+              <img
+                id="gate"
+                src="img/gate-of-heaven.jpg"
+                alt="Lempuyang Temple"
+                class="img-arc img-l"
+              />
+              <div class="text-trip text2">
+                <h3>Gate of Heaven, Lempuyang Temple</h3>
+                <p>
+                  The Gate of Heaven at Lempuyang Temple, also known as Pura
+                  Lempuyang Luhur, is one of Bali's most iconic and
+                  Instagram-famous locations.
+                  <span class="close open-tablet"
+                    >The temple complex is perched high on Mount Lempuyang in
+                    East Bali and is known for its stunning gate, which frames
+                    the towering Mount Agung volcano in the background.</span
+                  >
+                </p>
+                <p class="close">
+                  Lempuyang Temple is located in Karangasem Regency, East Bali.
+                  It's about a 2-3 hour drive from popular tourist areas like
+                  Ubud, Seminyak, or Kuta. The temple is open daily, but it's
+                  best to visit early in the morning to avoid crowds and to
+                  capture the best lighting for photographs.
+                </p>
+                <p class="close">
+                  The famous Gate of Heaven is the main attraction here. The
+                  gate is set against the backdrop of Mount Agung, and it
+                  appears as though you're looking at heaven through the gate.
+                  Be prepared for a queue to take photos at this spot, as it can
+                  get crowded.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section id="all">
+          <h2 id="explore">Explore Other Cities in Indonesia</h2>
+          <div id="allBlogs">
+            <div id="blogs">
+              <article id="blog-1">
+                <img
+                  src="img/borobudur.jpg"
+                  alt="Borobudur temple"
+                  class="img-blog"
+                />
+                <div class="text-blog text1">
+                  <h3>Borobudur Temple, Yogyakarta</h3>
+                  <p>
+                    Borobudur Temple is one of the most iconic and significant
+                    Buddhist temples in the world, and it's a UNESCO World
+                    Heritage Site.<span class="close open-tablet"
+                      >Borobudur Temple is located in Magelang, Central Java,
+                      Indonesia, which is about 40 kilometers (25 miles)
+                      northwest of Yogyakarta.
+                    </span>
+                  </p>
+                  <p class="close">
+                    Borobudur was built in the 9th century during the Sailendra
+                    dynasty. It is a massive structure that consists of nine
+                    stacked platforms topped by a central dome. The temple was
+                    abandoned for centuries and was only rediscovered in the
+                    19th century. It has since been restored and is a popular
+                    pilgrimage site for Buddhists.
+                  </p>
+                  <p class="close">
+                    Take your time to explore the temple. It's a labyrinth of
+                    galleries with intricate carvings and statues that depict
+                    Buddhist teachings and stories. If you want to witness a
+                    magical sunrise or sunset at Borobudur, consider arriving
+                    early in the morning or in the late afternoon. The views are
+                    spectacular, and it's a great time for photography.
+                  </p>
+                  <p class="close">
+                    In addition to Borobudur, you can explore other attractions
+                    in the area, including Prambanan Temple, Merapi Volcano, and
+                    Yogyakarta's cultural and culinary scene.
+                  </p>
+                </div>
+              </article>
+              <article id="blog-2">
+                <img
+                  src="img/bromo.jpg"
+                  alt="Bromo Mount, East Java"
+                  class="img-blog"
+                />
+                <div class="text-blog text2">
+                  <h3>Bromo Mount, East Java</h3>
+                  <p>
+                    Mount Bromo is located in East Java, Indonesia, in the Bromo
+                    Tengger Semeru National Park. The nearest major city is
+                    Surabaya, which is well-connected by air and road.
+                    <span class="close open-tablet"
+                      >Visiting Mount Bromo in East Java, Indonesia, is a
+                      remarkable adventure, offering stunning volcanic
+                      landscapes and breathtaking sunrises.
+                    </span>
+                  </p>
+                  <p class="close">
+                    Watching the sunrise from Mount Penanjakan is a must-do
+                    experience. To catch the sunrise, you'll need to start your
+                    journey in the early morning hours. Many visitors opt for a
+                    guided sunrise tour that includes transportation to the
+                    viewpoint. Be prepared for chilly temperatures at this time,
+                    so dress warmly.
+                  </p>
+                  <p class="close">
+                    Exploring the area around Mount Bromo often involves hiring
+                    a 4WD jeep. These tours take you to key viewpoints and
+                    attractions like the Sea of Sand and the viewpoint at
+                    Kingkong Hill.
+                  </p>
+                  <p class="close">
+                    You can hike to the rim of the Bromo crater to get a closer
+                    look at the volcanic activity. This hike is relatively easy
+                    but can be quite dusty, so it's advisable to wear a mask.
+                  </p>
+                  <p class="close">
+                    The best time to visit Mount Bromo is during the dry season,
+                    which typically runs from May to October. The weather is
+                    more predictable, and you have a better chance of clear
+                    views. However, it can get crowded during these months,
+                    especially on weekends.
+                  </p>
+                </div>
+              </article>
+              <article id="blog-3">
+                <img src="img/toraja.jpg" alt="Toraja" class="img-blog" />
+                <div class="text-blog text1">
+                  <h3>Mummies in Tana Toraja</h3>
+                  <p>
+                    The mummies of Toraja, Indonesia, are a fascinating cultural
+                    phenomenon found in the Toraja region of South Sulawesi.
+                    <span class="close open-tablet">
+                      These mummies are known locally as "Tau Tau" and "Lembus"
+                      and are part of the elaborate and unique burial customs of
+                      the Toraja people.</span
+                    >
+                  </p>
+                  <p class="close">
+                    The mummification practices in Toraja are closely tied to
+                    their beliefs about the afterlife. Torajans believe that the
+                    deceased person's soul remains with their family until the
+                    body is properly buried. The mummification process helps
+                    preserve the body for an extended period while the family
+                    prepares for the elaborate funeral ceremony.
+                  </p>
+                  <p class="close">
+                    The mummification process in Toraja involves a series of
+                    rituals and ceremonies. It typically begins with the
+                    deceased being cleaned and dressed in their best clothes.
+                    The body is then placed in a special room, often a
+                    designated part of the family's house, where it is exposed
+                    to smoke from a fire for an extended period. This process
+                    slowly dries and preserves the body.
+                  </p>
+                  <p class="close">
+                    In some Toraja communities, wooden effigies called "Tau Tau"
+                    are created to represent the deceased. These effigies are
+                    typically made to resemble the deceased and are placed in
+                    balconies or on cliffs overlooking the village as a sign of
+                    respect and remembrance.
+                  </p>
+                  <p class="close">
+                    After the funeral ceremony, the deceased is temporarily
+                    buried in a stone tomb or a carved-out chamber in a cliff,
+                    often shared with other family members. These temporary
+                    resting places are known as "lantang" or "liang." Some
+                    Torajans opt for reburial ceremonies, where the remains of
+                    the deceased are transferred to a more permanent location.
+                  </p>
+                </div>
+              </article>
+              <article id="blog-4">
+                <img src="img/bajo.jpg" alt="Labuan Bajo" class="img-blog" />
+                <div class="text-blog text2">
+                  <h3>Meet The Giant Lizard, Komodo in Labuan Bajo</h3>
+                  <p>
+                    Komodo Island is part of Komodo National Park, which is
+                    located near Labuan Bajo on the western tip of Flores Island
+                    in Indonesia.
+                    <span class="close open-tablet"
+                      >Labuan Bajo is the main gateway to the park and the
+                      starting point for most Komodo dragon tours.</span
+                    >
+                  </p>
+                  <p class="close">
+                    The main attraction of Komodo Island is, of course, the
+                    Komodo dragons. These giant lizards are the largest in the
+                    world and can only be found in this region. Guided tours
+                    will take you to the best spots to observe them safely.
+                  </p>
+                  <p class="close">
+                    In addition to Komodo Island, the park is home to many other
+                    beautiful islands, each with its own unique features.
+                    Island-hopping tours are a great way to explore the pristine
+                    beaches, clear waters, and diverse marine life of the area.
+                  </p>
+                  <p class="close">
+                    Komodo National Park is renowned for its excellent diving
+                    and snorkeling opportunities. The underwater world here is
+                    teeming with colorful coral reefs and marine creatures. If
+                    you're a diver, consider bringing your gear or renting
+                    equipment in Labuan Bajo.
+                  </p>
+                  <p class="close">
+                    The best time to visit Komodo Island and Labuan Bajo is
+                    during the dry season, which typically runs from April to
+                    December. The wet season (January to March) can bring heavy
+                    rainfall and rough seas.
+                  </p>
+                </div>
+              </article>
+              <article id="blog-5">
+                <img
+                  src="img/manado.jpg"
+                  alt="Bunaken island"
+                  class="img-blog"
+                />
+                <div class="text-blog text1">
+                  <h3>Snorkeling in Bunaken Island</h3>
+                  <p>
+                    Bunaken Island is part of Bunaken National Marine Park,
+                    located just off the coast of Manado, in North Sulawesi,
+                    Indonesia.
+                  </p>
+                  <p class="close open-tablet">
+                    Visiting Bunaken Island near Manado, Indonesia, is a
+                    fantastic opportunity for snorkeling and diving enthusiasts
+                    to explore one of the world's most biodiverse marine
+                    ecosystems.
+                  </p>
+                  <p class="close">
+                    The Bunaken National Marine Park is renowned for its
+                    stunning coral reefs and diverse marine life. It's home to a
+                    wide variety of fish species, including reef sharks,
+                    turtles, barracudas, and colorful coral formations. It's a
+                    paradise for snorkelers and divers.
+                  </p>
+                  <p class="close">
+                    Whether you're a certified diver or a snorkeler, Bunaken
+                    offers incredible underwater experiences. There are dive
+                    centers and resorts on the island that can arrange guided
+                    dives and snorkeling trips. The dive sites around Bunaken
+                    cater to divers of all levels, from beginners to advanced.
+                  </p>
+                </div>
+              </article>
+              <article id="blog-6">
+                <img
+                  src="img/raja-ampat.jpg"
+                  alt="Raja Ampat"
+                  class="img-blog"
+                />
+                <div class="text-blog text2">
+                  <h3>Raja Ampat, most beautiful underwater view</h3>
+                  <p>
+                    Visiting Raja Ampat in Indonesia is a dream come true for
+                    nature enthusiasts and diving aficionados.
+                    <span class="close open-tablet"
+                      >Raja Ampat, located in the West Papua province of
+                      Indonesia, is renowned for its pristine marine
+                      biodiversity, stunning landscapes, and rich cultural
+                      heritage.</span
+                    >
+                  </p>
+                  <p class="close">
+                    Raja Ampat is often referred to as the "Amazon of the Seas"
+                    due to its unparalleled marine biodiversity. The coral reefs
+                    here are among the most diverse in the world, teeming with
+                    colorful fish, sharks, manta rays, and other marine life.
+                    Divers and snorkelers will find a vast array of dive sites
+                    to explore
+                  </p>
+                  <p class="close">
+                    Raja Ampat is often referred to as the "Amazon of the Seas"
+                    due to its unparalleled marine biodiversity. The coral reefs
+                    here are among the most diverse in the world, teeming with
+                    colorful fish, sharks, manta rays, and other marine life.
+                    Divers and snorkelers will find a vast array of dive sites
+                    to explore.
+                  </p>
+                  <p class="close">
+                    The dry season, which runs from October to April, is the
+                    best time to visit Raja Ampat. During this period, the seas
+                    are calm, and visibility underwater is at its peak. However,
+                    keep in mind that it's also the peak tourist season, so make
+                    your travel arrangements well in advance.
+                  </p>
+                  <p class="close">
+                    Raja Ampat is an archipelago comprising over 1,500 islands.
+                    Take the opportunity to explore its picturesque islands,
+                    hidden lagoons, and unique karst formations.
+                  </p>
+                </div>
+              </article>
+            </div>
+            <aside>
+              <h4>Category</h4>
+              <div id="onTheSide">
+                <a href="#">Temple</a>
+                <a href="#">Mummies</a>
+                <a href="#">Snorkeling</a>
+                <a href="#">Mount</a>
+                <a href="#">Komodo</a>
+                <a href="#">Island</a>
+              </div>
+            </aside>
+          </div>
+        </section>
+      </div>
+      <section id="form-sec">
+        <h2>Contact Us</h2>
+        <form action="#" id="form">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="write your name here..."
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="write your email here..."
+            required
+          />
+          <label for="comment">Your comments:</label>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="50"
+            rows="25"
+            placeholder="write your comments here..."
+            required
+          ></textarea>
+          <input type="submit" name="submit" id="send" value="Send" />
+        </form>
       </section>
     </main>
     <footer>
