@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lobster&family=Philosopher&display=swap");
 
-/*
-font-family: 'Fira Sans', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Philosopher', sans-serif;
-*/
-
 /*Mobile Layout*/
 @media only screen and (min-width: 375px) and (max-width: 540px) {
   body {
@@ -18,7 +12,6 @@ font-family: 'Philosopher', sans-serif;
     font-size: 1.4rem;
   }
 
-  /*Tes these css codes*/
   #menu-burger {
     cursor: pointer;
     padding-right: 10px;
@@ -79,18 +72,6 @@ font-family: 'Philosopher', sans-serif;
     margin-bottom: 50px;
   }
 
-  /*#value-1 {
-    flex-basis: 230px;
-  }
-
-  #value-2 {
-    flex-basis: 230px;
-  }
-
-  #value-3 {
-    flex-basis: 230px;
-  }*/
-
   .values {
     flex-basis: 230px;
     font-size: 0.75em;
@@ -99,21 +80,11 @@ font-family: 'Philosopher', sans-serif;
   #our-values h2 {
     font-size: 1.5em;
   }
-  /*.main-2 {
-    margin-left: 20px;
-    margin-right: 20px;
-  }*/
 
   #all-article {
     width: 90%;
     margin: auto;
     margin-bottom: 50px;
-  }
-
-  #main-2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
   }
 
   #all-article h2 {
@@ -126,7 +97,7 @@ font-family: 'Philosopher', sans-serif;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -141,7 +112,7 @@ font-family: 'Philosopher', sans-serif;
   #trip-6 {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -159,31 +130,11 @@ font-family: 'Philosopher', sans-serif;
     display: none;
   }
 
-  #trip-2 div ul {
-    max-width: 200px;
-  }
-
-  ul {
-    padding-left: 20px;
-  }
-
   .img-arc {
-    width: 50%;
+    width: 45%;
     border-radius: 9%;
     margin-top: 5px;
     margin-bottom: 5px;
-  }
-
-  .img-r {
-    margin-right: 5px;
-  }
-
-  .img-l {
-    margin-left: 5px;
-  }
-
-  .text1 {
-    padding-left: 5px;
   }
 
   #all {
@@ -295,10 +246,6 @@ font-family: 'Philosopher', sans-serif;
     box-sizing: border-box;
   }
 
-  .close {
-    display: none;
-  }
-
   .img-blog {
     width: 90%;
     border-radius: 5%;
@@ -328,12 +275,14 @@ font-family: 'Philosopher', sans-serif;
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
+    border: 1px solid rgb(107, 197, 228);
   }
 
   form textarea {
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
+    border: 1px solid rgb(107, 197, 228);
   }
 
   #name,
@@ -346,13 +295,17 @@ font-family: 'Philosopher', sans-serif;
   #send {
     font-family: "Montserrat", sans-serif;
     font-size: 0.9em;
+    background-color: rgb(126, 195, 219);
+    border-color: lightcyan;
+    padding: 5px 20px;
+    border-radius: 15px;
   }
 
   footer {
     text-align: center;
     background-color: lightblue;
     font-family: "Montserrat", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
@@ -361,6 +314,10 @@ font-family: 'Philosopher', sans-serif;
   body {
     max-width: 912px;
     margin: 0 auto;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
   }
 
   .fa-bars {
@@ -380,14 +337,6 @@ font-family: 'Philosopher', sans-serif;
   #hero-image {
     height: 400px;
     justify-content: flex-end;
-  }
-
-  .main-2 img {
-    width: 40%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    /*height: 180px;*/
-    border-radius: 9%;
   }
 
   section div h1 {
@@ -424,14 +373,10 @@ font-family: 'Philosopher', sans-serif;
     margin-bottom: 70px;
   }
 
-  #main-2 {
+  #articles {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
-
-  .text-trip {
-    width: 50%;
   }
 
   #all-article h2 {
@@ -485,6 +430,17 @@ font-family: 'Philosopher', sans-serif;
   #trip-2 {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .img-arc {
+    width: 45%;
+    border-radius: 9%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .text-trip {
+    width: 45%;
   }
 
   #allBlogs {
@@ -557,7 +513,7 @@ font-family: 'Philosopher', sans-serif;
   #explore {
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
   }
 
   .img-blog {
@@ -567,14 +523,6 @@ font-family: 'Philosopher', sans-serif;
 
   .text-blog {
     width: 100%;
-  }
-
-  .close {
-    display: none;
-  }
-
-  .open-tablet {
-    display: block;
   }
 
   #form-sec {
@@ -603,14 +551,14 @@ font-family: 'Philosopher', sans-serif;
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
-    border: 2px solid rgb(107, 197, 228);
+    border: 1px solid rgb(107, 197, 228);
   }
 
   form textarea {
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
-    border: 2px solid rgb(107, 197, 228);
+    border: 1px solid rgb(107, 197, 228);
   }
 
   #name,
@@ -659,7 +607,7 @@ font-family: 'Philosopher', sans-serif;
   }
 
   #text-bar h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 
   .fa-bars {
@@ -674,6 +622,10 @@ font-family: 'Philosopher', sans-serif;
     font-size: 1.3em;
     margin-top: 5px;
     margin-right: 5px;
+  }
+
+  .dropdown-content {
+    padding-right: 5px;
   }
 
   .img-arc {
@@ -733,9 +685,10 @@ font-family: 'Philosopher', sans-serif;
     padding-bottom: 1px;
   }
 
-  #main-2 {
+  #articles {
     width: 90%;
     margin: auto;
+    margin-bottom: 100px;
   }
 
   .text-trip {
@@ -792,13 +745,11 @@ font-family: 'Philosopher', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*align-items: start;*/
   }
 
   #blogs {
     flex-basis: 90%;
     flex-grow: 1;
-    /*padding-right: 20px;*/
   }
 
   aside {
@@ -856,7 +807,7 @@ font-family: 'Philosopher', sans-serif;
 
   .img-blog {
     width: 90%;
-    /*height: 450px;*/
+    border-radius: 10px;
   }
 
   .text-blog {
@@ -916,7 +867,7 @@ font-family: 'Philosopher', sans-serif;
   }
 
   footer {
-    font-size: 0.9em;
+    font-size: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -944,6 +895,11 @@ font-family: 'Philosopher', sans-serif;
     min-width: 1301px;
     margin: auto;
   }
+
+  #text-bar h1 {
+    font-size: 2.1rem;
+  }
+
   .fa-bars {
     display: none;
   }
@@ -952,6 +908,10 @@ font-family: 'Philosopher', sans-serif;
     font-size: 1.5em;
     margin-top: 5px;
     margin-right: 5px;
+  }
+
+  .dropdown-content {
+    padding-right: 5px;
   }
 
   #menu-burger {
@@ -974,15 +934,6 @@ font-family: 'Philosopher', sans-serif;
 
   button {
     font-size: 1.7em;
-  }
-
-  .img-blog {
-    width: 90%;
-  }
-
-  .img-arc {
-    width: 45%;
-    border-radius: 10px;
   }
 
   #our-values {
@@ -1011,13 +962,196 @@ font-family: 'Philosopher', sans-serif;
   }
 
   .values {
-    flex-basis: 300px;
+    flex-basis: 400px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1em;
+  }
+
+  #all-article {
+    width: 90%;
+    margin: auto;
   }
 
   #all-article h2 {
     font-size: 3em;
+  }
+
+  #articles {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #trip-1,
+  #trip-2,
+  #trip-3,
+  #trip-4,
+  #trip-5,
+  #trip-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 50%;
+    margin-bottom: 50px;
+  }
+
+  .img-arc {
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .text-trip {
+    width: 95%;
+    font-size: 1em;
+  }
+
+  #bg-pic {
+    background-image: url("/UPPGIFT2/img/bg-pic.jpg");
+    padding-top: 1px;
+    padding-bottom: 100px;
+  }
+
+  #all {
+    width: 90%;
+    margin: auto;
+  }
+
+  #explore {
+    font-size: 3em;
+  }
+
+  #allBlogs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #blogs {
+    width: 75%;
+  }
+
+  aside {
+    width: 18%;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    background-color: lightblue;
+    position: sticky;
+    align-self: flex-start;
+    top: 40px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+  .img-blog {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .text-blog {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  #onTheSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 250px;
+  }
+
+  #onTheSide a {
+    border: 2px solid lightcyan;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+  }
+
+  #onTheSide a:hover {
+    border: 2px solid rgb(136, 195, 232);
+    border-radius: 12px;
+  }
+
+  #onTheSide a:active {
+    border: 2px solid rgb(60, 142, 194);
+    border-radius: 12px;
+    color: rgb(3, 48, 76);
+    font-weight: bolder;
+  }
+
+  #form-sec {
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  #form-sec h2 {
+    font-size: 3em;
+  }
+
+  form {
+    width: 100%;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 700px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  form textarea {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 0;
+    border: 2px solid rgb(107, 197, 228);
+  }
+
+  #name,
+  #email,
+  #comments {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+  }
+
+  #send {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(126, 195, 219);
+    border-color: lightcyan;
+    padding: 8px 20px;
+    border-radius: 15px;
+  }
+
+  footer {
+    font-size: 1.2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .foot1,
+  .foot2,
+  .foot3 {
+    flex-basis: 400px;
+  }
+
+  .foot4,
+  .foot5 {
+    flex-basis: 1000px;
+  }
+
+  .foot5 {
+    margin-top: 20px;
   }
 }
 
@@ -1028,12 +1162,6 @@ main {
   padding-bottom: 70px;
 }
 
-/*#bg-pic {
-  background-image: url("/UPPGIFT2/img/bg-pic.jpg");
-  padding-top: 1px;
-  padding-bottom: 1px;
-}*/
-
 #header {
   display: flex;
   justify-content: space-between;
@@ -1043,11 +1171,6 @@ main {
 #text-bar {
   display: flex;
 }
-
-/*#menu-bar {
-  display: flex;
-  justify-content: flex-start;
-}*/
 
 li {
   list-style-type: none;
@@ -1117,7 +1240,7 @@ button a {
 
 section div h1 {
   color: ghostwhite;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   text-transform: uppercase;
   margin-bottom: 3px;
   padding: 5px;
@@ -1157,6 +1280,11 @@ section div h2 {
   font-weight: 100;
 }
 
+.text-trip,
+.text-blog {
+  font-family: "Montserrat", sans-serif;
+}
+
 #explore {
   text-align: center;
   color: rgb(5, 138, 183);
@@ -1168,12 +1296,12 @@ section div h2 {
   color: rgb(5, 138, 183);
   font-family: "Lobster", cursive;
   font-weight: 100;
+  text-align: center;
 }
 
 footer {
   text-align: center;
   background-color: lightblue;
   padding: 10px;
-  font-size: 1.1em;
   font-family: "Philosopher", sans-serif;
 }
